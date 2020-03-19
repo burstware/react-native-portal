@@ -2,7 +2,7 @@
 
 [<img src="https://s3-us-west-2.amazonaws.com/burstware.com/img/burstware+horizontal.png" width="50%" />](https://burstware.com)
 
-[![NPM](https://img.shields.io/badge/npm-1.0.1-blue)](https://www.npmjs.org/@burstware/react-native-portal)
+[![NPM](https://img.shields.io/badge/npm-1.0.2-blue)](https://www.npmjs.org/@burstware/react-native-portal)
 
 React Native Portal
 

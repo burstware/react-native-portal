@@ -3,9 +3,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Render a component anywhere on the DOM",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "lint": "eslint --ignore-path .gitignore . --ignore-path .eslintrc . --ignore-path .eslintignore .",
