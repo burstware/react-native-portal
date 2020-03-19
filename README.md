@@ -28,34 +28,22 @@ npm i --save @burstware/react-native-portal
 
 ## Usage
 ```javascript
-import React, { useState } from 'react'
-import { Text, View,
-  StyleSheet } from 'react-native'
+import React from 'react'
+import { Text, View } from 'react-native'
 import Portal from '@burstware/react-native-portal'
 
 export default function (props) {
-  const [visible, setVisible] = useState(false)
-
   return (
     <Portal.Host>
       <View>
-          <View>
-            <Text>Background Text</Text>
-            <TouchableOpacity onPress={() => setVisible(true)}>
-              <View style={styles.button}>
-                <Text style={styles.buttonText}>Show Portal</Text>
-              </View>
-            </TouchableOpacity>
-            <Portal>
-              <View style={styles.smallParent}>
-                <Text>portal parent view</Text>
-                { visible ? (
-                  <View>
-                    <Text>This should be on top</Text>
-                  </View>
-                ): null}
-              </Portal>
-            </View>
+          <Text>Background Text</Text>
+          <Portal>
+            <View style={styles.smallParent}>
+              <Text>portal parent view</Text>
+                <View>
+                  <Text>This should be on top</Text>
+                </View>
+            </Portal>
           </View>
       </View>
     </Portal.Host>
