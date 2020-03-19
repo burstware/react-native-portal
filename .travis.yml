@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+  - lts/*
+  - node
+sudo: false
+cache: npm
+notifications:
+  email: false
+script:
+  - npm run lint
+  # - npm test
+stages:
+  # - test
+  - deploy
+jobs:
+  include:
+    - stage: deploy
+      script: skip
+      deploy:
+        provider: npm
+        edge: true
+        email: jordan.baczuk@gmail.com
+        api_key:
+          secure: G3+9Yued3HTzqE6cUvhFBnTKUiJ9ZDANJB3gL4RHZsXMeJs1Fvw12Y4D+b6v2fEjmX8RoS4BQqBjRcN2pclWhueoqyLfscuCjlZj0m6ZEn5LjXJfsamJIT6DtuEBQf81Sy6Wyaq+XvuMbAK2s7mjasvZGovnMmNKRnpiqXRLTdUm+15Nm9wW43kog+VObn9dWVhA1EtAaYhzHAXcZP84v/uM2p3hqLlF5QlsXMb/+jnBEeVOGXwgymb0f33J4TygeFiwoMsVPeVpNtBeKVW/PZI58eqDQ5DTR43XtpKeNSFJOkA+gsqn/eAs8VgQyZ7UQXfrmMRRZYbc1OLP+V7+VWWycFWwsnZ5PBpQR2xwTI2sV1BvRFfyMfzZUbXrnRP8z/yl0Bb1nM4/NVOUJcf+5sET2j5SCwSV/rv01G3pWL85LosF9lGiCLQODOI4G2DDZyTjCVx2xnk46BtnzjQKKDJX+xd9nhgd8gb3WJ8iyzWCfMuLSkEybHygQzFCzwUFGuUFtbAksWKNxbsU7jjGEoquCQBPXPlGAP7vzCULQ36f3xF4NRSwcLDvpH0KssaKTQ9oRzhk2sr0++1Vj/foXpStreInING+pIN9JDpaxv4OSCu4zLL1u7AZEJFe/yD/5BchxnAfnTwbge9AqJCKRWJSEavTsl9HC3pPF8fNinE=
+        on:
+          repo: "@burstware/react-native-portal"

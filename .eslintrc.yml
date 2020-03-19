@@ -1,0 +1,20 @@
+extends:
+  - "plugin:react/recommended"
+  - "standard"
+  - "standard-react"
+parser: "babel-eslint"
+globals:
+  fetch: true
+  Headers: true
+  Request: true
+env:
+  jest: true
+rules:
+  no-warning-comments:
+  - error
+  - terms:
+    - todo
+    - fixme
+    location: anywhere
+  react/prop-types: 0
+  camelcase: 0
