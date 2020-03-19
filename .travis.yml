@@ -8,9 +8,9 @@ notifications:
   email: false
 script:
   - npm run lint
-  # - npm test
+  - npm test
 stages:
-  # - test
+  - test
   - deploy
 jobs:
   include:
@@ -21,6 +21,6 @@ jobs:
         edge: true
         email: jordan.baczuk@gmail.com
         api_key:
-          secure: G3+9Yued3HTzqE6cUvhFBnTKUiJ9ZDANJB3gL4RHZsXMeJs1Fvw12Y4D+b6v2fEjmX8RoS4BQqBjRcN2pclWhueoqyLfscuCjlZj0m6ZEn5LjXJfsamJIT6DtuEBQf81Sy6Wyaq+XvuMbAK2s7mjasvZGovnMmNKRnpiqXRLTdUm+15Nm9wW43kog+VObn9dWVhA1EtAaYhzHAXcZP84v/uM2p3hqLlF5QlsXMb/+jnBEeVOGXwgymb0f33J4TygeFiwoMsVPeVpNtBeKVW/PZI58eqDQ5DTR43XtpKeNSFJOkA+gsqn/eAs8VgQyZ7UQXfrmMRRZYbc1OLP+V7+VWWycFWwsnZ5PBpQR2xwTI2sV1BvRFfyMfzZUbXrnRP8z/yl0Bb1nM4/NVOUJcf+5sET2j5SCwSV/rv01G3pWL85LosF9lGiCLQODOI4G2DDZyTjCVx2xnk46BtnzjQKKDJX+xd9nhgd8gb3WJ8iyzWCfMuLSkEybHygQzFCzwUFGuUFtbAksWKNxbsU7jjGEoquCQBPXPlGAP7vzCULQ36f3xF4NRSwcLDvpH0KssaKTQ9oRzhk2sr0++1Vj/foXpStreInING+pIN9JDpaxv4OSCu4zLL1u7AZEJFe/yD/5BchxnAfnTwbge9AqJCKRWJSEavTsl9HC3pPF8fNinE=
+          secure: gJVIrq8S/xkNjr4hgJ6vNOaMgBdSQtkMULqjGpQJ1mPIX566D0lkSTTviB67+txqPQb9ajgnWPvfmcHE0NqVvGAis5BWfMRwOuN6vcLPkX3egQL5JdEabtiYHLDHEYIWzFt3PueUfXzq+jZM9tOTnwrYg2MDBS5IcsuTjOOkZx7mcWFoGYyw4WI3NiARj/OuITPOwVTSzCeOB752NEP+X6qKTVmMSTsIDNW5s4Nc6n72eqJ1JCgzfdAipKA6mg1BeTYPoRIuMFYADA17enekQBVUsx5lR0McbEHmHbVodV9nRpOrX4AbyeTN7JXDP5w2P7MPnI3cfiiXOeVvx0rMN8KC0Tv61Dry5gjIPwfGhUx55sZL3JHH9a9EVTannWWq26C5rI5ecatVRtwYja9dPiia4ueeIow2/d0z+B95x9b7mzln0ocHzwmphjjPe7KY/q4+ydJE9M66Ephg6ZXpK7ZgwqUUA65J3FADnF6hgmsDcuPmY9aWLVMjhuyqp1/7EOGK3FF/G7y4y6VD6ku3dnSYmq/UzS19lfHpjqfnKG1JcUQ4UsfVOlpVedcNH20aDoNQSIX8PcHbSo4/g3OxM2DRVCv7HzFvHTvz7ErLzyldEHgqnbioLroVShF0XnBfGeMXNSM58E/NvHLbab1rjYaFZapi2kYqMTAMLCR4ZFo=
         on:
           repo: "@burstware/react-native-portal"

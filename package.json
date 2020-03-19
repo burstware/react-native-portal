@@ -1,10 +1,13 @@
 {
   "name": "@burstware/react-native-portal",
-  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.1",
   "description": "Render a component anywhere on the DOM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "lint": "eslint --ignore-path .gitignore . --ignore-path .eslintrc . --ignore-path .eslintignore .",
     "lint:fix": "eslint --fix --ignore-path .gitignore . --ignore-path .eslintignore .",
     "build": "babel src --out-dir build --copy-files"
