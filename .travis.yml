@@ -23,4 +23,4 @@ jobs:
         api_key:
           secure: gJVIrq8S/xkNjr4hgJ6vNOaMgBdSQtkMULqjGpQJ1mPIX566D0lkSTTviB67+txqPQb9ajgnWPvfmcHE0NqVvGAis5BWfMRwOuN6vcLPkX3egQL5JdEabtiYHLDHEYIWzFt3PueUfXzq+jZM9tOTnwrYg2MDBS5IcsuTjOOkZx7mcWFoGYyw4WI3NiARj/OuITPOwVTSzCeOB752NEP+X6qKTVmMSTsIDNW5s4Nc6n72eqJ1JCgzfdAipKA6mg1BeTYPoRIuMFYADA17enekQBVUsx5lR0McbEHmHbVodV9nRpOrX4AbyeTN7JXDP5w2P7MPnI3cfiiXOeVvx0rMN8KC0Tv61Dry5gjIPwfGhUx55sZL3JHH9a9EVTannWWq26C5rI5ecatVRtwYja9dPiia4ueeIow2/d0z+B95x9b7mzln0ocHzwmphjjPe7KY/q4+ydJE9M66Ephg6ZXpK7ZgwqUUA65J3FADnF6hgmsDcuPmY9aWLVMjhuyqp1/7EOGK3FF/G7y4y6VD6ku3dnSYmq/UzS19lfHpjqfnKG1JcUQ4UsfVOlpVedcNH20aDoNQSIX8PcHbSo4/g3OxM2DRVCv7HzFvHTvz7ErLzyldEHgqnbioLroVShF0XnBfGeMXNSM58E/NvHLbab1rjYaFZapi2kYqMTAMLCR4ZFo=
         on:
-          repo: "@burstware/react-native-portal"
+          repo: "burstware/react-native-portal"
