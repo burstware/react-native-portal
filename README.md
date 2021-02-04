@@ -50,3 +50,5 @@ export default function (props) {
   )
 }
 ```
+
+Based on Portal implementation in [React Native Paper](https://callstack.github.io/react-native-paper/)
