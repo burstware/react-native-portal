@@ -6,7 +6,7 @@
 
 # React Native Portal
 
-[![NPM](https://img.shields.io/badge/npm-1.0.2-blue)](https://www.npmjs.org/@burstware/react-native-portal) [![Build Status](https://travis-ci.com/burstware/react-native-portal.svg?token=29qnEeDFvpCBmjssZsMZ&branch=master)](https://travis-ci.com/burstware/react-native-portal) [![Coverage](https://img.shields.io/badge/coverage-0%25-red)](https://www.npmjs.org/@burstware/react-native-portal)
+[![NPM](https://img.shields.io/badge/npm-1.0.2-blue)](https://www.npmjs.org/@burstware/react-native-portal) [![Slack](https://img.shields.io/badge/chat-slack-green)](https://form.typeform.com/to/vyAEGkWC)
 
 Render a component anywhere. Anything inside a `<Portal>` component will be rendered on an ancestor `<Portal.Host>` component.
 <p align="center">
